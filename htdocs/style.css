@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+*	{ margin: 0px; padding: 0px; border: 0px; font-family: NanumBarunGothic; }
+
+@media screen and (min-width:550px) {
+.contain	{ position:absolute; left:50%; width: 500px; margin-left: -250px; }
+}
+@media screen and (max-width:550px) {
+.contain	{ position:absolute; width: 100%; }
+}
+.buttonform	{ height: 32px; margin-top: 1px; margin-bottom: 1px; }
+
+#header	{ text-align: center; font-weight: bold; font-size: 1.5em; }
+#image	{ width: 100%; }
+#upload_form	{ text-align: center; }
+
+#file_form	{ width: 100%; }
+#button_run	{ width: 100%; }
