@@ -1,3 +1,7 @@
+$(window).load(function() {
+    $('form').get(0).reset();
+});
+
 $(function() {
 	$("#file_form").on('change', function(){
 	readURL(this);

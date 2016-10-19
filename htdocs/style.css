@@ -1,18 +1,39 @@
 @charset "UTF-8";
 
-*	{ margin: 0px; padding: 0px; border: 0px; font-family: NanumBarunGothic; }
+*	{ margin: 0px; padding: 0px; border: 0px; font-family: NanumBarunGothic, NanumGothic, Malgun Gothic, Segoe UI; }
+a	{ color: #fff; text-decoration: none; }
 
-@media screen and (min-width:550px) {
+@media screen and (min-width:500px) {
 .contain	{ position:absolute; left:50%; width: 500px; margin-left: -250px; }
 }
-@media screen and (max-width:550px) {
+@media screen and (max-width:500px) {
 .contain	{ position:absolute; width: 100%; }
 }
 .buttonform	{ height: 32px; margin-top: 1px; margin-bottom: 1px; }
 
-#header	{ text-align: center; font-weight: bold; font-size: 1.5em; }
-#image	{ width: 100%; }
+#header	{ 
+	text-align: center; 
+	font-weight: bold; 
+	font-size: 1.25em;
+	border-radius: 0.25em;
+	background: linear-gradient(-120deg, #333, #aaa) fixed; 
+	text-shadow: 0.1em 0.1em 0.1em black;
+	box-shadow: 0.25em 0.25em 0.25em #aaa;
+	color: #fff; 
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	}
+#image	{ width: 100%; box-shadow: 0.25em 0.25em 0.25em #aaa; }
 #upload_form	{ text-align: center; }
 
 #file_form	{ width: 100%; }
-#button_run	{ width: 100%; }
+#button_run	{ 
+	font-size: 1.05em; 
+	width: 100%; 
+	background: linear-gradient(-120deg, #666, #aaa) fixed; 
+	text-shadow: 0.1em 0.1em 0.1em black;
+	box-shadow: 0.25em 0.25em 0.25em #aaa;
+	color: #fff; 
+	font-weight: bold;
+	border-radius: 0.25em;
+	}
